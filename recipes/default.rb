@@ -1,3 +1,5 @@
+include_recipe "libuuid"
+
 packages = Array.new
 
 case node[:lsb][:codename]
